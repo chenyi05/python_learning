@@ -1,0 +1,28 @@
+# ===== Python 产生的缓存 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+
+# ===== 编辑器配置 =====
+.vscode/
+.idea/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== 系统文件 =====
+Thumbs.db
+Desktop.ini
+
+# ===== 大文件与个人信息，不要传上去 =====
+# 如果你要练习读取数据文件，把下面两行的 # 去掉
+# *.csv
+# *.xlsx
+*.pem
+.env
